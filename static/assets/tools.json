@@ -1,5 +1,35 @@
 [
     {
+    "name": "Collimator",
+    "license": "commercial",
+    "url": "https://www.collimator.ai/",
+    "logo": " ",
+    "vendor": "Collimator",
+    "vendorURL": "https://www.collimator.ai/",
+    "description": "Collimator is a tool to design, simulate, test, and deploy code to embedded systems so you can reduce development risks and bring products to market faster",
+    "features": [],
+    "platforms": [
+        "macOS",
+        "Linux",
+        "Windows"
+    ],
+    "interfaces": [
+        "GUI",
+    ],
+    "fmiVersions": [
+        "1.0",
+	"2.0",
+        "3.0"
+    ],
+    "fmuExport": [
+        "ME"
+    ],
+    "fmuImport": [
+        "CS",
+	"ME"
+    ]
+    }
+    {
         "name": "preCICE-FMI Runner",
         "license": "osi",
         "url": "https://github.com/precice/fmi-runner",
